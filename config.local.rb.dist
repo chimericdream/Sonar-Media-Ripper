@@ -1,0 +1,32 @@
+# Duplicate to config.local.rb to activate. Override the variables set in the Vagrantfile to tweak your local VM.
+
+# Basic VM Information
+#$vm_name          = "sonar-ripper"
+#$vm_cpus          = "1"
+#$vm_memory        = "512"
+#$vm_music_path    = "/vagrantshare/music"
+
+# Host Information
+#$host_os          = "Win"
+#$nfs_supported    = false
+#$local_music_path = "D:\\local\\path\\here"   # Double slashes may be required for Windows hosts e.g. "C:\\Users\\yourname\\Music"
+
+# Additional Shared Folders
+#$shared_folders["D:\\local\\path\\here"] = '/vm/path/here'
+#$shared_folders["D:\\local\\path\\here"] = '/vm/path/here'
+
+# IP Addresses & Ports
+#$vm_ip_address    = "66.66.66.10"
+
+# Forwarded Ports
+#$forwarded_ports[host port #] = vm port #
+#$forwarded_ports[1234] = 1234
+
+# Default Proxy Settings
+#$http_proxy       = nil
+#$https_proxy      = nil
+#$noproxy_hosts    = "localhost,127.0.0.1"
+#$proxy_enabled    = false
+
+#$chef_log_level   = :info  #:debug, :info, :warn, :error, or :fatal (ArgumentError) 
+#$chef_json_extra  = {}

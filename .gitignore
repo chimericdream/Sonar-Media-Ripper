@@ -3,4 +3,3 @@ config.local.rb
 provision.local.sh
 beforechef.local.sh
 vendor/*
-templates/mysql.local.sql
