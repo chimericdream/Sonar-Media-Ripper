@@ -1,0 +1,3 @@
+[submodule "cookbooks/abcde"]
+	path = cookbooks/abcde
+	url = https://github.com/chimericdream/chef-abcde.git
